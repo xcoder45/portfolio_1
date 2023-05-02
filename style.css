@@ -1,0 +1,151 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --primaryAccentColor: #5caec0;
+    --backgroundColor: #B9EDDD;
+    --myTitleFont:'Dancing Script', cursive;
+    --titleFont:'Sacramento', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
+}
+
+h2 {
+    font-family: var(--fontDefaultHeading);
+    margin: 0;
+    font-size: 2.00rem;  /* 1em = 16px */
+    padding-bottom: 20px;
+}
+
+hr{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: dotted var(--backgroundColor) 5px;
+    border-bottom: none;
+    width: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.top-section{
+    background-color: var(--backgroundColor);
+    text-align: center;
+    padding-top: 120px;
+}
+
+.middle-section{
+    margin: 50px auto 100px auto;
+    text-align: center;
+    width: 60%;
+}
+
+.bottom-section{
+    margin: 0px auto;    
+    text-align: center;
+    background-color: var(--primaryColor);
+}
+
+
+.heading {
+    font-family: var(--titleFont);
+    font-size: 4.75rem;    
+    margin: 0;
+}
+
+.top-cloud{
+    position: absolute;
+    margin-block-start: -80px;
+    margin-left: 350px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 80px;
+    margin-left: -150px;
+    width: 100px;
+}
+.mountain{
+    width: 400px;
+}
+.profile-pic{
+    border-radius: 100%;
+    width: 200px;
+    margin: 100px auto 50px auto; /* TRBL */
+    display: block;
+}
+
+.intro{
+    width: 75%;
+    margin: auto;
+}
+
+.skill-image{
+    width: 150px;
+}
+
+.my-skills{
+    margin-bottom: 60px;
+}
+
+.left{
+    float: left;
+    margin-right: 40px;
+}
+
+.right{
+    float: right;
+    margin-left: 40px;
+}
+
+.skill-row{
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+.contact{
+    background-color: var(--primaryColor);
+    font-size: 1.75rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.contact:hover{
+    background-color: var(--primaryAccentColor);
+}
+
+.social{
+    padding:40px 0px;
+}
+
+.social-link{
+    margin: 0px 40px;
+}
+
+.social-link:hover{
+    color: var(--backgroundColor);
+}
+
+.copyright{
+    margin: 0;
+    padding-bottom: 40px;
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* 
+font-family: 'Dancing Script', cursive;
+fon/docs/user-guide/hints/hint-detect-css-reflows/composite/t-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
